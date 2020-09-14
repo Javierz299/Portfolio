@@ -161,7 +161,9 @@ body.active .mscroll {
 	list-style: none;
 	text-align: right;
 	width: 100%;
-	top: 5%;
+  top: 5%;
+  text-align: center;
+
 }
 #sidebar-wrapper .sidebar-nav li.sidebar-nav-item a {
   display: inline-block;
@@ -324,7 +326,7 @@ body.active .mscroll {
 }
 #OurBlog .blog-wrap {
 	position: relative;
-	height: 500px;
+	height: 400px;
 	margin: 60px 0;
 }
 #OurBlog .each-block {
