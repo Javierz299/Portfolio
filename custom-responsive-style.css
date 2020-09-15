@@ -6,24 +6,24 @@
 	#Banner {
 		width: 100%;
 	}
-	header {
+	/* header {
 		background: #e64741;
 		position: fixed;
-		width: 100%;
+		width: 90%;
 		padding: 20px;
 		z-index: 99999;
-	}
-	header .mobile-logo {
+	} */
+	/* header .mobile-logo {
 		display: block;
 		width: 60px;
-	}
-	#Banner .logo {
+	} */
+	/* #Banner .logo {
 		display: none;
-	}
-	.mobile-logo img {
+	} */
+	/* .mobile-logo img {
 		width: 100%;
 		height: auto;
-	}
+	} */
 	#Banner h1 {
 		font-size: 20px;
 		right: auto;
@@ -45,15 +45,17 @@
 	}
 	#Services .each-services img {
 		padding-bottom: 10px;
+		height: 200px;
+		width: 250px;
 	}
 	.each-services {
-	    margin-bottom: 40px;
+	    margin-bottom: 10px;
 	}
 	#OurWork h2, #TestimonialsSlider h2 {
 		font-size: 38px;
 	}
 	#OurWork .grey-box {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	#OurWork .each-work {
 		padding: 0 7px 10px;
@@ -61,8 +63,8 @@
 		height: 120px;
 	}
 	#OurWork .each-work img {
-		width: 100%;
-		height: auto;
+		height: 200px;
+		width: 250px;
 	}
 	#OurBlog h2 {
 		font-size: 38px;
@@ -74,7 +76,7 @@
 	    position: static;
 	    width: auto;
 	    padding: 0 0;
-	    margin-bottom: 25px;
+	    margin-bottom: 20px;
 	    display: inline-block;
 	}
 	.blog-wrap {
@@ -96,9 +98,14 @@
 	.social-icons li i {
 	    font-size: 26px;
 	}
+	
 	.blog-wrap {
+		margin: 0 auto 0 auto;
+		text-align: left;
+		width: 300px;
 		height: auto;
 	}
+
 	#OurBlog .each-block {
 		width: 100%;
 	}
@@ -148,7 +155,7 @@
 		height: 20vh;
 	}
 	header {
-		background: #e64741; /* Old browsers */
+		background: black; /* Old browsers */
 		position: fixed;
 		width: 100%;
 		padding: 20px;
@@ -180,13 +187,15 @@
 	}
 	#Services h2 {
 		font-size: 40px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	#Services .each-services img {
-	    width: 58px;
+		height: 200px;
+		width: 250px;
 	    padding-bottom: 10px;
 	}
 	#Services .each-services h3 {
+		margin: 0px;
 		font-size: 22px;
 		min-height: 50px;
 	}
@@ -201,12 +210,21 @@
 	#OurWork h2, #TestimonialsSlider h2, #OurBlog h2 {
 		font-size: 38px;
 	}
+
 	#OurWork .each-work {
-		width: 151px;
+		width: 200px;
+		height: 200px;
 	}
 
 .row{
 	text-align: center;
+}
+
+.blog-wrap {
+	margin: 0 auto 0 auto;
+	text-align: center;
+	width: 400px;
+	height: auto;
 }
 
 	.blog-wrap:before {
@@ -244,6 +262,16 @@
 	}
 	#Banner h1 {
 		font-size: 60px;
+	}
+	#OutBlog .container{
+		text-align: center;
+	}
+
+	.blog-wrap {
+		margin: 0 auto 0 auto;
+		text-align: center;
+		width: 500px;
+		height: auto;
 	}
 	#OurWork .each-work {
 		width: 30.6%;

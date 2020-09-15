@@ -25,7 +25,8 @@
 body {
 	font-family: 'Futura PT medium';
 	font-size: 16px;
-	line-height: 1.5;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
 }
 /* Reset style */
 * {
@@ -49,14 +50,11 @@ ul, li {
   opacity: 0;
 }
 #Banner {
-	width: 0;
+	width: auto;
 	height: 20vh;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64741+0,e6255d+100,7db9e8+100 */
-	background: #e64741; /* Old browsers */
-	background: -moz-linear-gradient(top, #e64741 0%, #e6255d 100%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64741', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	background: black; /* Old browsers */
+
 	overflow: hidden;
 	position: relative;
 }
@@ -196,7 +194,7 @@ body.active .mscroll {
   color: #fff;
 }
 #sidebar-wrapper .sidebar-nav>.sidebar-brand a:hover {
-  color: #fff;
+  color: rgb(31, 31, 31);
   background: none;
 }
 #sidebar-wrapper.active {
@@ -215,7 +213,7 @@ body.active .mscroll {
   padding: 4px 10px;
   text-align: center;
   color: #fff;
-  background: #000;
+  background: rgb(31, 31, 31);
   z-index: 999;
   width: 56px;
   height: 50px;
@@ -229,7 +227,7 @@ body.active .mscroll {
   color: #fff;
 }
 .menu-toggle:hover, .menu-toggle.active {
-  background: #e6275c;
+  background: #4f4f4f;
 }
 /* Banner style ends here */
 /* Our Digital services style begins here */
@@ -242,12 +240,18 @@ body.active .mscroll {
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 90px;
 }
-#Services .each-services img {
-	width: 80px;
-	height: auto;
+/* #Services .each-services img {
+	width: 300px;
+	height: 200px;
 	padding-bottom: 30px;
+} */
+
+.each-services{
+  padding: 5px;
 }
+
 #Services .each-services h3 {
+  margin: 0;
 	color: #000;
 	font-size: 30px;
 	line-height: 110%;
@@ -281,18 +285,20 @@ body.active .mscroll {
 #OurWork .each-work {
   display: inline-block;
   width: 31%;
-  background-color: #31a38a;
+  background-color: black;
   margin: 0 8px 10px;
   height: 142px;
   position: relative;
   text-align: center;
 }
-#OurWork .each-work img {
+
+
+/* #OurWork .each-work img {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
-}
+} */
 #OurWork .grey-box .sponser {
   position: absolute;
   bottom: 30px;
@@ -300,6 +306,10 @@ body.active .mscroll {
   left: 0;
   padding-left: 30px;
 }
+.stack{
+  color: white;
+}
+
 #OurWork .sponser h4 {
   font: 700 20px/125% 'Futura PT book';
   color: #b6b3b3;
@@ -310,7 +320,7 @@ body.active .mscroll {
 /* Our work end */
 /* Our blog begin */
 #OurBlog {
-	padding: 60px 0;
+	padding: 20px 0;
 	background-color: #ececec;
 }
 #OurBlog h2 {
@@ -321,14 +331,15 @@ body.active .mscroll {
 }
 #OurBlog p {
 	color: #000;
-	font: 18px/125% 'Futura PT book';
+  font: 18px/125% 'Futura PT book';
+  padding: 5px;
 	margin-bottom: 20px;
-	text-align: center;
+	text-align: left;
 }
 #OurBlog .blog-wrap {
 	position: relative;
-	height: 400px;
-	margin: 60px 0;
+	height: auto;
+	margin: 0 auto 0 auto;
 }
 #OurBlog .each-block {
     position: absolute;
@@ -383,17 +394,17 @@ body.active .mscroll {
     left: 50%;
     transform: translateX(-50%);
 } */
-#OurBlog .each-block:before {
+/* #OurBlog .each-block:before {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #e6275c;
+    background-color: #4f4f4f;
     position: absolute;
     border-radius: 50%;
     right: -34%;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 #OurBlog .each-block.two:before {
     right: auto;
     left: -34%;
@@ -516,12 +527,12 @@ body.active .mscroll {
 	width: 100%;
 	left: 0;
 }
-#Testimonials .each-testi .profile img {
+/* #Testimonials .each-testi .profile img {
 	display: inline-block;
 	vertical-align: middle;
 	width: 60px;
 	height: auto;
-}
+} */
 #Testimonials .each-testi .profile .designation {
 	display: inline-block;
 	vertical-align: middle;
